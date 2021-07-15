@@ -216,7 +216,7 @@ function getScore() {
 		}
 	}
 	sessionStorage.setItem('score', score);
-	window.location.replace('https://thedipsmeister18.github.io/Quiz-Site3/');
+	window.location.href = 'https://thedipsmeister18.github.io/Quiz-Site3/';
 }
 
 window.history.forward();
