@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #b5d0fd;
+}
+
+.bg-color {
+	background-color: #8cc1db;
+}
+
+#navbar a {
+	color: #fff;
+}
+
+.navbar {
+	width: 100%;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 550px;
+}
+
+.hero .name {
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.hero .text {
+	font-size: 33px;
+	font-weight: bold;
+}
+
+.hero .score {
+	font-size: 33px;
+	font-weight: bold;
+}
+
+img {
+	width: 500px;
+}

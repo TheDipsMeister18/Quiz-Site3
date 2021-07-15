@@ -1,0 +1,53 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quiz</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<!-- Navbar -->
+
+		<section id="navbar">
+			<nav class="navbar navbar-light bg-color">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">Quiz</a>
+				</div>
+			</nav>
+		</section>
+
+		<!-- Navbar End -->
+
+		<!-- Hero -->
+
+		<section id="hero">
+			<div class="hero">
+				<div class="detail">
+					<form onsubmit="submitForm(event)">
+						<div class="mb-3">
+							<label for="exampleFormControlTextarea1" class="form-label"
+								>Enter your name</label
+							>
+							<textarea
+								class="form-control"
+								id="exampleFormControlTextarea1"
+								rows="1"
+							></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- Hero End -->
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="./js/start.js"></script>
+	</body>
+</html>
